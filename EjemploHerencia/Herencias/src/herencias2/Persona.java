@@ -13,8 +13,8 @@ package herencias2;
 public class Persona {
     
     protected String nombre;
-    private String apellido;
-    private int edad;
+    protected String apellido;
+    protected int edad;
     
     public Persona(String n, String a,  int e){
         setNombre(n);
